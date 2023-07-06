@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Countdown Timer</title>
+  <script src="./Index.js"></script>
+  <style>
+    #Main_container, p{
+        justify-content: center;
+        text-align: center;
+        /* border: 2PX solid green; */
+        font-size: larger;
+    }
+    #timer {
+      margin-bottom: 10px;
+      justify-content: center;
+        text-align: center;
+        font-size: large;
+    }
+  </style>
+</head>
+<body>
+  <div id="Main_container">
+    <p>Countdown Timer</p>
+    <input type="text" id="timer" placeholder="Enter Time" onkeydown="startTimer(event)">
+    <div id="current-time">--</div>
+  </div>
+</body>
+</html>
